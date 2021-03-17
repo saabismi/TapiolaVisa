@@ -1,5 +1,70 @@
+/* Add custom font, Arial rounded mt bold */
+
+@font-face {
+    font-family: "arialrounded";
+    src: url("../font/arlrdbd.ttf");
+}
+
+@font-face {
+    font-family: "georgia";
+    src: url("../font/Georgia.ttf");
+}
+
 body, html {
     margin:0;
     height:100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+header {
+    width:100%;
+    background-color: #0d971e;
+    height:20vh;
+    background-image: url("../img/bgimgp_pakattu.jpg");
+    background-attachment: fixed;
+}
+
+header h1 {
+    padding:5px;
+    background-color: #0d971e;
+    color:#eafdec;
+    margin:0;
+    width:100%;
+    text-align: center;
+    font-family: "arialrounded";
+}
+
+main {
+    width:50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#868686;
+    font-size: 14pt;
+}
+
+button#toQuiz {
+    padding:10px;
+    background-color: #eafdec;
+    color: #0d971e;
+    border-radius: 10px;
+    border:1px solid #0d971e;
+    cursor:pointer;
+    transition: 0.5s ease;
+    box-sizing: content-box;
+    font-size: 16pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button#toQuiz:hover {
+    border:5px solid #0d971e;
+    margin-left:-4px;
+    margin-top:-4px;
 }
