@@ -10,4 +10,6 @@ Lähdekoodi on avointa ja sitä saa tutkia ja muokata omaan käyttöön. Kunhan 
 
 Kaikki HTML, CSS ja JavaScript on itse kirjoittamaani. Projektissa ei ole käytetty frameworkkeja tai kirjastoja.
 
+***
+
 _&copy; Vilho Syvähuoko 2021_
