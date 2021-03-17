@@ -57,14 +57,13 @@ button#toQuiz {
     border-radius: 10px;
     border:1px solid #0d971e;
     cursor:pointer;
-    transition: 0.5s ease;
-    box-sizing: content-box;
+    transition: 0.2s ease;
     font-size: 16pt;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 button#toQuiz:hover {
-    border:5px solid #0d971e;
-    margin-left:-4px;
-    margin-top:-4px;
+    border:3px solid #0d971e;
+    margin-left:-2px;
+    margin-top:-2px;
 }
