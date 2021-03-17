@@ -1,0 +1,25 @@
+{
+  "name": "tapiolavisa",
+  "version": "0.0.1",
+  "description": "Tapiola-visa, jossa voit testata tietamystasi Tapiolasta.",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saabismi/TapiolaVisa.git"
+  },
+  "keywords": [
+    "tapiola",
+    "quiz",
+    "visa",
+    "espoo"
+  ],
+  "author": "saabismi",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/saabismi/TapiolaVisa/issues"
+  },
+  "homepage": "https://github.com/saabismi/TapiolaVisa#readme"
+}
