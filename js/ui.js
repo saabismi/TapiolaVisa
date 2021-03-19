@@ -58,3 +58,6 @@ fetch('http://localhost:3000/users')
 });
 
 */
+
+
+const startQuizBtn = document.getElementById("toQuiz");

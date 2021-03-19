@@ -50,7 +50,7 @@ main p {
     font-size: 14pt;
 }
 
-button#toQuiz {
+a#toQuiz {
     padding:10px;
     background-color: #eafdec;
     color: #0d971e;
@@ -60,9 +60,10 @@ button#toQuiz {
     transition: 0.2s ease;
     font-size: 16pt;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
 }
 
-button#toQuiz:hover {
+a#toQuiz:hover {
     /*border:3px solid #0d971e;
     margin-left:-2px;
     margin-top:-2px;*/
