@@ -4,5 +4,22 @@
         {"name":"Meikäläinen Maija", "score":"12"},
         {"name":"Jonne Ponne", "score":"3"},
         {"name":"käyttäjä1", "score":"8"}
+    ],
+
+    "quiz":[
+        {"id":"01", "question":"Miltä kadulta tämä kuva on otettu?", "img":"img/quiz/img01.jpg", "answers":
+            [
+                {"name":"Sateenkaari", "isRight":true},
+                {"name":"Kaskenkaatajantie", "isRight":false},
+                {"name":"Neulaspolku", "isRight":false},
+                {"name":"Sateentie", "isRight":false}
+            ]},
+        {"id":"02", "question":"Miltä kadulta tämä kuva on otettu?", "img":"img/quiz/img02.jpg", "answers":
+            [
+                {"name":"Pilvettärenpolku", "isRight":false},
+                {"name":"Itäranta", "isRight":false},
+                {"name":"Mäntyviita", "isRight":true},
+                {"name":"Jousenkaari", "isRight":false}
+            ]}
     ]
 }
